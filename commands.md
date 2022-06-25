@@ -1,37 +1,35 @@
 # Комманды Гита
 
-git init
+git init - создание репозитория
 
-git add
+git add - отслеживает добавленные изменения
 
-git commit
+git commit - фиксирует сохраненные изменения
 
-git diff
+git diff - показывает разницу между текущей версией и сохраненной
 
-git log
+git log - показывает список действий
 
-git chechout
+git chechout - переключает мужду версиями
 
-git branch
+git branch - работа с ветками (создание, удаление, переход на нужную)
 
-git branch -d
+git status - показывает текущее состояние
 
-git status
+git merge - слияние веток
 
-git merge
+git log --graph - графическое отображение веток
 
-git log --graph
+git commit -a - вызывает редактор в терминале, для создания длинных комментариев
 
-git commit -a
+clear - очистить терминал
 
-clear
+git clone - копирует внешний репозиторий в локальный
 
-git clone
+cd - смена репозитория
 
-cd
+git remote add - привязывает локальный репозиторий к удаленному
 
-git remote add
+git branch -M - указывает основную ветку
 
-git branch -M
-
-git push
+git push - отправляет локальный репозиторий во внешний
